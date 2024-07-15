@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5baeb;
+  font-family: 'calibri';
+}
+
+header {
+  background:#ec83da; 
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 250px;
+  height: 170px;
+  float: left;
+  padding: 4px;
+}
+
+#colortextomenu
+  {
+    color: rgb(28, 53, 216)
+    
+    
+  }
+
+  #colortextomenu2
+  {
+    color: rgb(249, 244, 149)
+    
+  }
+
+  #colortextomenu3
+  {
+    color: rgb(247, 72, 37)
+    
+  }
+
+  #mision
+  {
+    color: rgba(250, 102, 10, 0.935);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  #vision
+  {
+    color: rgb(202, 10, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+    
+  
+   #imagensara{
+    display: flex;
+    justify-content: center;
+  }
+
+nav {
+  float:right;
+}
+
+nav ul li{
+  list-style: none;
+  margin-left: 200px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before{
+  display:block;
+  content:'';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+nav ul li a:hover::before{
+  width: 100%;
+}
+  
